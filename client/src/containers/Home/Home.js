@@ -69,18 +69,7 @@ class Home extends Component {
               </Subhead>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={4} className={classes.headline}>
-              <Typography align="center" className={classes.heading}>
-                Appointments
-              </Typography>
-              <Subhead align="center">
-                <Link
-                  href="/appointments"
-                >
-                  <img src={appointment} alt="calendar" />
-                </Link>
-              </Subhead>
-            </Grid>
+            
 
             <Grid item xs={12} sm={6} md={4} className={classes.headline}>
               <Typography align="center" className={classes.heading}>
@@ -108,18 +97,7 @@ class Home extends Component {
               </Subhead>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={4} className={classes.headline}>
-              <Typography align="center" className={classes.heading}>
-                Charts
-              </Typography>
-              <Subhead align="center">
-                <Link
-                  href="/charts"
-                >
-                  <img src={chart} alt="line graph" />
-                </Link>
-              </Subhead>
-            </Grid>
+            
           </Grid>
         </div>,
       </div>,

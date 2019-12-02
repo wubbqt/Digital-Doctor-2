@@ -14,14 +14,10 @@ import Home from './containers/Home';
 import SymptomJournal from './containers/SymptomJournal';
 // Importing the DoctorList page component.
 import DoctorList from './containers/DoctorsList';
-// Importing the Appointments page component.
-import Appointments from './containers/Appointments';
 // Importing the My health log page component.
 import MedLog from './containers/MedLog';
 // Importing the Prescriptions page
 import Prescriptions from './containers/Prescriptions';
-// Importing the Charts page
-import Charts from './containers/Charts';
 // Importing the Login page
 import Login from './containers/Login';
 // Importing the Signup page
@@ -62,10 +58,8 @@ class App extends Component {
               <Route exact path="/symptoms" render={props => <SymptomJournal 
               {...props}></SymptomJournal>} loggedInUser={this.state.currentlyLoggedInUser} />
               <Route exact path="/doctors" component={DoctorList} />
-              <Route exact path="/appointments" component={Appointments} />
               <Route exact path="/log" component={MedLog} />
               <Route exact path="/prescriptions" component={Prescriptions} />
-              <Route exact path="/charts" component={Charts} />
               <Route component={NoMatch} />
             </Switch>
           </div>
