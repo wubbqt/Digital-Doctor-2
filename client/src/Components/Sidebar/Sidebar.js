@@ -1,23 +1,19 @@
-// Import React
 import React from 'react';
-// Import material-ui-next components and styling.
 import { withStyles } from 'material-ui/styles';
 import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemText } from 'material-ui/List';
 import Hidden from 'material-ui/Hidden';
-// import third-party routing library (react-router-dom)
 import { Link } from 'react-router-dom';
 import Tooltip from 'material-ui/Tooltip';
 import IconButton from 'material-ui/IconButton';
 
-// Original drawer width: 240
 const drawerWidth = 120;
 
 const styles = {
   drawerPaper: {
     position: 'relative',
     width: drawerWidth,
-    backgroundColor: '#33658A',
+    backgroundColor: '#eee2dc',
   },
   navItem: {
     marginTop: 8,

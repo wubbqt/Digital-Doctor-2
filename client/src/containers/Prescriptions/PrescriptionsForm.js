@@ -1,6 +1,4 @@
-// Importing React since we are using React.
 import React from 'react';
-// Importing UI components from material-ui-next
 import Typography from 'material-ui/Typography';
 import { MenuItem } from 'material-ui/Menu';
 import { FormControl } from 'material-ui/Form';
@@ -16,7 +14,6 @@ const styles = theme => ({
   textField: {
     marginTop: 60,
   },
-  // Tell Material-UI what's the font-size on the html element is.
   typography: {
     htmlFontSize: 40,
   },
