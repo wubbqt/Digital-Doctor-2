@@ -35,7 +35,6 @@ module.exports = function(passport, User){
           res.json("everything is good in signup");
         })
         .catch(err => res.json(err));
-      // res.redirect('/');
 
 
     });

@@ -26,10 +26,7 @@ class Footer extends React.Component {
       <Card className="footer">
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2" className={classes.footerContent}>
-            DigitalDoctor
-          </Typography>
-          <Typography component="p" className={classes.footerContent}>
-            ..
+
           </Typography>
         </CardContent>
       </Card>

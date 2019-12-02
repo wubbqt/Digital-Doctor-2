@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 
-// Save a reference to the Schema constructor
 const Schema = mongoose.Schema;
 
-// new SymptomSchema object for saving symptoms.
 const SymptomSchema = new Schema({
   symptomType: {
     type: String,
@@ -28,8 +26,6 @@ const SymptomSchema = new Schema({
   },
 });
 
-// This creates our model from the above schema, using mongoose's model method
 const SymptomJournal = mongoose.model('SymptomJournal', SymptomSchema);
 
-// Export the SymptomJournal model
 module.exports = SymptomJournal;

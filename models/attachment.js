@@ -1,16 +1,13 @@
 const mongoose = require('mongoose');
 
-// Save a reference to the Schema constructor
 const Schema = mongoose.Schema;
 
-// new AttachmentSchema object for login purposes
 const AttachmentSchema = new Schema({
   date: {
     type: Date,
     trim: true,
     required: 'Date is required',
   },
-  // this is populated by dropdown
   doctor: {
     type: String,
     trim: true,
@@ -27,8 +24,6 @@ const AttachmentSchema = new Schema({
   },
 });
 
-// This creates our model from the above schema, using mongoose's model method
 const Attachment = mongoose.model('Attachment', AttachmentSchema);
 
-// Export the Attachment model
 module.exports = Attachment;
