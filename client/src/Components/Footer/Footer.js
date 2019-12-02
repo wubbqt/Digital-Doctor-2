@@ -1,6 +1,4 @@
-// Importing React since we are using React.
 import React from 'react';
-// Importing UI components from material-ui-next.
 import { withStyles } from 'material-ui/styles';
 import Card, { CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
@@ -8,11 +6,6 @@ import Typography from 'material-ui/Typography';
 const styles = {
   root: {
     width: 500,
-  },
-  copyright: {
-    marginTop: 10,
-    backgroundColor: '#33658A',
-    color: 'white',
   },
   footerContent: {
     backgroundColor: '#33658A',
@@ -33,7 +26,7 @@ class Footer extends React.Component {
       <Card className="footer">
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2" className={classes.footerContent}>
-            Digital Doctor
+
           </Typography>
         </CardContent>
       </Card>
@@ -41,5 +34,4 @@ class Footer extends React.Component {
   }
 }
 
-// Exporting the footer component with styling.
 export default withStyles(styles)(Footer);

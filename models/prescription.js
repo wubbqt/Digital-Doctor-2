@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 
-// Save a reference to the Schema constructor
 const Schema = mongoose.Schema;
 
-// new prescriptionSchema object for saving prescriptions.
 const prescriptionSchema = new Schema({
   prescriptionName: {
     type: String,
@@ -30,8 +28,6 @@ const prescriptionSchema = new Schema({
   },
 });
 
-// This creates our model from the above schema, using mongoose's model method
 const Prescription = mongoose.model('Prescription', prescriptionSchema);
 
-// Export the PrescriptionList model
 module.exports = Prescription;

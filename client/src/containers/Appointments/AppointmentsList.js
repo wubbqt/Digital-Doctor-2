@@ -1,13 +1,9 @@
-// Importing React since we are using React.
 import React from 'react';
-// Import UI components from material-ui-next.
 import { withStyles } from 'material-ui/styles';
 import Button from 'material-ui/Button';
 import { TableCell, TableRow } from 'material-ui/Table';
-// Import moment js library to format appointment date in table.
 import moment from 'moment';
 
-// Style/Theme
 const styles = theme => ({
   root: theme.mixins.gutters({
     paddingTop: 16,
@@ -33,7 +29,6 @@ const styles = theme => ({
   },
 });
 
-// Appointments List component on the Appointments page.
 class AppointmentsList extends React.Component {
   render() {
     const { classes } = this.props;

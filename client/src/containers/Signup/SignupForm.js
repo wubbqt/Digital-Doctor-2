@@ -1,6 +1,4 @@
-// Importing React since we are using React.
 import React from 'react';
-// Importing material-ui components and style.
 import Card, { CardContent } from 'material-ui/Card';
 import { withStyles } from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
@@ -12,7 +10,6 @@ import InputAdornment from 'material-ui/Input/InputAdornment';
 import Input from 'material-ui/Input';
 import IconButton from 'material-ui/IconButton';
 
-// Style
 const styles = theme => ({
   textField: {
     marginTop: 60,
@@ -24,7 +21,7 @@ const styles = theme => ({
     marginTop: theme.spacing.unit * 3,
     borderStyle: 'solid',
     borderWidth: 4,
-    borderColor: '#33658A',
+    borderColor: '#c19434',
   },
   formControl: {
     minWidth: 120,
@@ -33,13 +30,13 @@ const styles = theme => ({
   button: {
     marginTop: 40,
     padding: 15,
-    backgroundColor: '#33658A',
+    backgroundColor: '#ac3b61',
     color: 'white',
   },
   loginButton: {
     marginTop: 40,
     padding: 15,
-    backgroundColor: '#33658A',
+    backgroundColor: '#ac3b61',
     float: 'right',
     color: 'white',
   },
@@ -49,18 +46,15 @@ const styles = theme => ({
 });
 
 class LoginForm extends React.Component {
-  // State to toggle password visibility.
   state = {
     password: '',
     showPassword: false,
   };
 
-  // Toggle password visibility
   handleMouseDownPassword = event => {
     event.preventDefault();
   };
 
-  // Toggle password visiblity
   handleClickShowPassword = () => {
     this.setState({ showPassword: !this.state.showPassword });
   };
@@ -73,10 +67,10 @@ class LoginForm extends React.Component {
         <Card className={classes.root}>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2" align="center">
-              SIGN UP for a free account
+              SIGN UP to Create your account
             </Typography>
             <Typography gutterBottom component="p" align="center">
-              To SIGN UP, you'll need to provide your email address and create a username and password.
+              Fill out the form below
             </Typography>
             <form noValidate autoComplete="off">
               <FormControl className={classes.formControl} fullWidth>
