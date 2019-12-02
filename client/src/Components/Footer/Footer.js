@@ -33,13 +33,7 @@ class Footer extends React.Component {
       <Card className="footer">
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2" className={classes.footerContent}>
-            HealthTracker
-          </Typography>
-          <Typography component="p" className={classes.footerContent}>
-            Created by Sara, Kayla, Jerridd, and Phil at the University of Minnesota
-          </Typography>
-          <Typography component="p" className={classes.copyright}>
-            Copyright &copy; 2018
+            Digital Doctor
           </Typography>
         </CardContent>
       </Card>
