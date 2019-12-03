@@ -1,4 +1,3 @@
-//these are required
 const router = require("express").Router();
 const attachmentsController = require("../../controllers/attachmentsController");
 const isAuthenticated = require('../isAuthenticated')
