@@ -32,7 +32,7 @@ class Home extends Component {
         <Grid item xs={12} className={classes.headline}>
           <Grid container spacing={24} className={classes.root} justify="center">
             <Typography variant="display1" align="center">
-              Click an icon and your DigitalDoctor will navigate you
+              CLICK AN icon AND LETS GET STARTED
             </Typography>
           </Grid>
         </Grid>,
