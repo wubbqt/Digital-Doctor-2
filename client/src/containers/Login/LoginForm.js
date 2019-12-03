@@ -70,7 +70,7 @@ class LoginForm extends React.Component {
             LOGIN
             </Typography>
             <Typography gutterBottom component="p" align="center">
-            Enter your Digital Doctor account information to LOG IN or click SIGN UP to create an account.
+            Login to your DigtalDoctor account or click SignUp to create an account.
             </Typography>
             <form noValidate autoComplete="off">
               <FormControl className={classes.formControl} fullWidth>
