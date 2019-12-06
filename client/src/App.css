@@ -1,45 +1,42 @@
-  /*Sticky footer*/
-  .Site {
-    /* display: flex; */
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
-  .main-content-section {
-    flex: 1;
-    min-height: 75vh;
-    margin-bottom: 40px;
-    margin-top: 10px;
-  }
-  
-  /* background */
-  body {
-    background-color: #eee2dc;
-  }
-  
-  /* top navigation bar */
-  .appBar {
-    background-color: #ac3b61 !important;
-    padding-bottom: 20px;
-    border-bottom: 8px solid white;
-  }
-  
-  /* headers */
-  .header {
-    color: white !important;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .footer {
-    background-color: #ac3b61!important;
-    color: 'white';
-    border-top: 8px solid #ac3b61;
-  }
-  
-  
-  
-  
-  
+.Site {
+  font-family: "Dancing Script", cursive;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content-section {
+  font-family: "Dancing Script", cursive;
+  flex: 1;
+  min-height: 75vh;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+/* background */
+body {
+  font-family: "Dancing Script", cursive;
+  background-color: #eee2dc;
+}
+
+/* top navigation bar */
+.appBar {
+  background-color: #ac3b61 !important;
+  padding-bottom: 20px;
+  border-bottom: 8px solid white;
+}
+
+/* headers */
+.header {
+  font-family: "Dancing Script", cursive;
+  color: white !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #ac3b61 !important;
+  color: "white";
+  border-top: 8px solid #ac3b61;
+}

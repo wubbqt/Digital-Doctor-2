@@ -4,42 +4,42 @@ const db = require('../models');
 mongoose.Promise = global.Promise;
 
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/reacthealthtracker');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/digitaldoctor');
 
 
 
 const prescriptionSeed = [
   {
-    prescriptionName: 'lansiprosole',
+    prescriptionName: 'Oxilofrine',
     amount: '10mLs',
     timesaday: 2,
-    dateprescribed: '10/16/16',
-    doctorprescibed: 'Dr. Kristin King',
-    generalinstructions: 'Take half hour before breakfast and dinner.',
+    dateprescribed: '12/2/19',
+    doctorprescibed: 'Dr. Fadi Madain',
+    generalinstructions: 'Take about 2 before you eat. and try to overdose by the end of the day.',
   },
   {
     prescriptionName: 'prednisolone',
     amount: '10mLs',
     timesaday: 2,
-    dateprescribed: '10/16/17',
-    doctorprescibed: 'Dr. Kristin King',
-    generalinstructions: 'Prescription dose increased. Take with meds, be careful about taking too close to bed time.',
+    dateprescribed: '12/2/19',
+    doctorprescibed: 'Dr. Micheal Zaccaria',
+    generalinstructions: 'Prescription dose increased. Take with meds, if youre trying to overdose, just take the whole bottle.',
   },
   {
     prescriptionName: 'singulair',
     amount: '5mL disolvable tablet',
     timesaday: 1,
-    dateprescribed: '10/16/17',
-    doctorprescibed: 'Dr. Larry Lungs',
-    generalinstructions: 'Take at bed time. Can cause night-terrors',
+    dateprescribed: '12/2/19',
+    doctorprescibed: 'Dr. Fadi Madain',
+    generalinstructions: 'Take before you sleep if youre trying to have some bad dreams.',
   },
   {
     prescriptionName: 'qnasl',
     amount: '1 spray each nostril',
     timesaday: 1,
-    dateprescribed: '10/16/18',
-    doctorprescibed: 'Dr. Sam Sneezy',
-    generalinstructions: 'Difficult to take, hurts at first. Do in the morning 15minutes after any other nose sprays',
+    dateprescribed: '12/2/19',
+    doctorprescibed: 'Dr. Micheal Zaccaria',
+    generalinstructions: 'You can figure it out.',
   },
 ];
 

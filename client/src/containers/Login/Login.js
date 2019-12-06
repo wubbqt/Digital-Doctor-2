@@ -78,7 +78,7 @@ class Login extends Component {
               Digital Doctor
             </Typography>
           </Grid>
-        </Grid>,
+        </Grid>
 
         <div className="main-content-section">
           <Grid item xs={12} className={classes.headline}>

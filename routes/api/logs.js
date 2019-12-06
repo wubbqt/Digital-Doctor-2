@@ -1,4 +1,3 @@
-//these are required
 const router = require("express").Router();
 const logsController = require("../../controllers/healthLogController");
 const isAuthenticated = require('../isAuthenticated')

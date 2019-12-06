@@ -53,10 +53,10 @@ app.get('/populateduser', function (req, res) {
     });
 });
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/reacthealthtracker');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/digitaldoctor');
 
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/reacthealthtracker";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/digitaldoctor";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI, {

@@ -1,4 +1,3 @@
-//these are required
 const router = require("express").Router();
 const appointmentsController = require("../../controllers/appointmentsController");
 const isAuthenticated = require('../isAuthenticated')
